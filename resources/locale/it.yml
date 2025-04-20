@@ -1,0 +1,5 @@
+peopleinside-antiflood:
+  forum:
+    error:
+      pending_limit: "Hai troppi post o discussioni in attesa di approvazione."
+      flood_limit: "Puoi creare solo {count} discussioni ogni {minutes} minuti. Riprova tra {remaining} minuti."
