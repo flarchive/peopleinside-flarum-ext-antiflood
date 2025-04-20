@@ -1,0 +1,38 @@
+{
+    "name": "peopleinside/antiflood",
+    "description": "Flarum extension to prevent topic/post flooding and limit pending approvals.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "antiflood", "approval"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peopleinside",
+            "email": "example@example.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "pestphp/pest": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peopleinside\\AntiFlood\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "AntiFlood",
+            "icon": {
+                "name": "fas fa-shield-alt"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
