@@ -1,0 +1,17 @@
+{
+  "name": "@peopleinside/flarum-ext-antiflood",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "analyze": "webpack --mode production --analyze"
+  },
+  "devDependencies": {
+    "flarum-tsconfig": "^1.0.3",
+    "flarum-webpack-config": "^2.0.2",
+    "typescript": "^5.0.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  }
+}

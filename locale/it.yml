@@ -1,0 +1,23 @@
+peopleinside-antiflood:
+  forum:
+    error:
+      pending_limit: "Hai troppi post o discussioni in attesa di approvazione. Attendi che alcuni vengano revisionati prima di creare nuovi contenuti."
+      flood_limit: "Stai pubblicando troppo velocemente. Attendi {minutes} minuti prima di pubblicare di nuovo."
+  admin:
+    description: "Previene il flood di topic/risposte e limita i contenuti in attesa di approvazione."
+    settings:
+      max_pending_label: "Massimo post in attesa"
+      max_pending_help: "Numero massimo di post e discussioni che un utente può avere in attesa di approvazione prima di essere bloccato dalla pubblicazione. Predefinito: 6."
+      flood_limit_label: "Limite flood topic"
+      flood_limit_help: "Numero massimo di nuovi topic che un utente può creare nell'intervallo flood prima di essere bloccato. Predefinito: 3. Nota: Flarum applica già un limite integrato di 10 secondi tra tutti i post e i topic."
+      post_flood_limit_label: "Limite flood risposte"
+      post_flood_limit_help: "Numero massimo di nuove risposte che un utente può pubblicare nell'intervallo flood prima di essere bloccato. Impostare a 0 per disabilitare (si affida al limite integrato di 10 secondi di Flarum). Predefinito: 0."
+      flood_interval_minutes_label: "Intervallo flood (minuti)"
+      flood_interval_minutes_help: "Finestra temporale in minuti usata per contare le creazioni recenti di topic o risposte. Si applica sia al limite flood topic che a quello risposte. Predefinito: 5."
+      pending_limit_message_label: "Messaggio personalizzato: limite post in attesa raggiunto"
+      pending_limit_message_help: "Sostituisce il messaggio di errore predefinito mostrato quando un utente raggiunge il limite di post in attesa. Lascia vuoto per usare il messaggio predefinito."
+      flood_limit_message_label: "Messaggio personalizzato: limite flood raggiunto"
+      flood_limit_message_help: "Sostituisce il messaggio di errore predefinito mostrato quando un utente pubblica troppo velocemente. Lascia vuoto per usare il messaggio predefinito. Puoi usare {minutes} come segnaposto."
+      pending_limit_message_suggestion: "Hai troppi post o discussioni in attesa di approvazione. Attendi che alcuni vengano revisionati prima di creare nuovi contenuti."
+      flood_limit_message_suggestion: "Stai pubblicando troppo velocemente. Attendi {minutes} minuti prima di pubblicare di nuovo."
+      reset_button: "Reimposta"
