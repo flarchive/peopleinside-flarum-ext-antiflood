@@ -1,0 +1,4 @@
+   /vendor/
+   composer.lock
+   node_modules/
+   js/node_modules/
