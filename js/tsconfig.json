@@ -1,0 +1,7 @@
+{
+  "extends": "flarum-tsconfig/admin",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "resolveJsonModule": true
+  }
+}
